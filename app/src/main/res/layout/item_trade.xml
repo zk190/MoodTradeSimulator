@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tradeSymbolText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AAPL"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tradeTypeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUY"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tradeQuantityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qty: 1"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MoodTradeSimulator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_blue</item>
+        <item name="colorPrimaryVariant">@color/brand_navy</item>
+        <item name="colorSecondary">@color/brand_teal</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/surface_white</item>
+    </style>
+
+    <style name="Theme.MoodTradeSimulator.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_screen</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">#0A1F2E</item>
+        <item name="android:navigationBarColor">#0A1F2E</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198422398454",
+    "project_id": "moodtradesimulator",
+    "storage_bucket": "moodtradesimulator.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198422398454:android:e26c3385a64297c923f3d7",
+        "android_client_info": {
+          "package_name": "com.example.moodtradesimulator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUc3f2eepSsFXPKMdDc2-n5LYg5GSSyHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

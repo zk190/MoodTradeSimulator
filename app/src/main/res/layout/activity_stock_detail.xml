@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+
+        <TextView
+            android:id="@+id/detailNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp" />
+
+        <TextView
+            android:id="@+id/detailSymbolText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SYMBOL"
+            android:textSize="14sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/detailPriceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$0.00"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/ownedSharesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Owned Shares: 0"
+            android:textSize="14sp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:id="@+id/averageBuyPriceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Average Buy Price: N/A"
+            android:textSize="14sp"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:id="@+id/positionProfitLossText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Position P/L: $0.00"
+            android:textSize="14sp"
+            android:paddingBottom="10dp" />
+
+        <!-- Chart section -->
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/stockChart"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/trendText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.0% recent trend"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp" />
+
+        <TextView
+            android:id="@+id/trendSummaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trend: Stable"
+            android:textSize="14sp"
+            android:paddingBottom="14dp" />
+
+        <!-- Trade actions -->
+        <EditText
+            android:id="@+id/quantityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter quantity"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/buyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/sellButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sell"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/cooldownMessageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            android:text="Cooldown active: take a moment before making another trade."
+            android:textColor="#B74D1A"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

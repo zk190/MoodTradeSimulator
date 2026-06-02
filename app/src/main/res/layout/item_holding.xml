@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/holdingSymbolText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AAPL"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/holdingQuantityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qty: 0"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/holdingAverageBuyPriceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avg Buy: $0.00"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/holdingPriceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Price: $0.00"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/holdingValueText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Value: $0.00"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/holdingProfitLossText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="P/L: $0.00"
+        android:textSize="14sp" />
+
+</LinearLayout>

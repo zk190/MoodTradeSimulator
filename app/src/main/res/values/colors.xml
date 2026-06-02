@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_background">#EDF3F8</color>
+    <color name="surface_white">#FFFFFFFF</color>
+    <color name="surface_muted">#F7FAFC</color>
+    <color name="text_primary">#132433</color>
+    <color name="text_secondary">#637587</color>
+    <color name="brand_navy">#123A52</color>
+    <color name="brand_navy_dark">#0A1F2E</color>
+    <color name="brand_teal">#5ED2B8</color>
+    <color name="brand_blue">#2D6DF6</color>
+    <color name="brand_blue_dark">#1E53C4</color>
+    <color name="brand_gold">#F3B562</color>
+    <color name="divider_soft">#D9E4EC</color>
+    <color name="warning_surface">#FFF4E8</color>
+    <color name="danger_text">#B74D1A</color>
+    <color name="profit_green">#1F9D68</color>
+    <color name="loss_red">#D45454</color>
+    <color name="nav_unselected">#8A9AA8</color>
+</resources>
