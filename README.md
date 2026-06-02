@@ -24,31 +24,6 @@ MoodTradeSimulator is an Android application designed to help users learn tradin
 
 This project was developed as a final-year computing project to explore how emotional factors can influence trading behaviour and decision-making.
 
-## Screenshots
-## Portfolio Dashboard
-
-Displays the user's portfolio balance, trading activity, and performance information.
-
-
-
-
-## Market Overview
-
-Browse available stocks and view current market information.
-
-
-
-
-## Stock Details
-
-View detailed information about individual stocks before making trading decisions.
-
-
-
-
-## Buy and Sell Trading
-
-Execute simulated trades through an interactive trading interface.
 
 ## Author
 
