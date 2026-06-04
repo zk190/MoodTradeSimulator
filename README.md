@@ -29,25 +29,26 @@ This project was developed as a final-year computing project to explore how emot
 
 Displays the user's portfolio, balance, and trading activity.
 
-![Portfolio Screen](images/portfolio%20screen.png)
+<img src="images/portfolio%20screen.png" width="300">
 
 ### Markets Screen
 
 Browse available stocks and market information.
 
-![Markets Screen](images/markets%20screen.png)
+<img src="images/markets%20screen.png" width="300">
+
 
 ### Stock Detail Screen
 
 View detailed information about individual stocks before making trading decisions.
+<img src="images/stock%20detail%20screen%20(1).png" width="300">
 
-![Stock Detail Screen](images/stock%20detail%20screen%20\(1\).png)
 
 ### Insights Screen
 
 Provides additional insights and trading-related information.
 
-![Insights Screen](images/insights%20screen.png)
+<img src="images/insights%20screen.png" width="300">
 
 
 
