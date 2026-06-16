@@ -1,6 +1,8 @@
 # MoodTradeSimulator
 
 MoodTradeSimulator is an Android application designed to help users learn trading concepts while understanding the impact of emotions on investment decisions.
+
+## Demo Video
 [ezgif-786ee08e1b7b043a.webm](https://github.com/user-attachments/assets/2086892a-e200-4c95-8249-65c4c1f4057c)
 
 
